@@ -1,0 +1,16 @@
+{
+    "name": "Daily Quotes",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Features inspiration from the world's most important philosiphers, inventors, scientists, religious figures, and leaders throughout history.",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

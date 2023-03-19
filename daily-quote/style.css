@@ -1,0 +1,22 @@
+body {
+    width: 500px;
+    font-family: Kalam;
+    background-color: brown;
+    
+
+}
+
+div {
+
+    color: white;
+    text-align: center;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    background-color: #0093E9;
+
+}
+
+h2 {
+    color: brown;
+}
