@@ -1,0 +1,16 @@
+{
+    "name": "Notepad",
+    "version": "1.0",
+    "description": "This extension allowed you to open native Notepad application",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "nativeMessaging"
+    ]
+}
