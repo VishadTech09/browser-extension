@@ -1,9 +1,10 @@
 {
-    "name": "Daily Quotes",
-    "version": "0.0.1",
-    "manifest_version": 2,
+    "name": "Daily Inspiration Quotes",
+    "version": "1.0",
+    "manifest_version": 3,
     "description": "Features inspiration from the world's most important philosiphers, inventors, scientists, religious figures, and leaders throughout history.",
-    "browser_action": {
+    "action": {
+        "default_title": "Today Quote",
         "default_popup": "index.html",
         "default_icon": "logo.png"
     },
