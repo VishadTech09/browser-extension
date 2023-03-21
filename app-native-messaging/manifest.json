@@ -11,6 +11,11 @@
         "128": "logo.png"
     },
     "permissions": [
-        "nativeMessaging"
-    ]
+        "nativeMessaging",
+        "tabs",
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "service_worker.js"
+    }
 }
