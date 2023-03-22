@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "name": "Setup Alert",
+    "manifest_version": 3,
+    "description": "This extension allows you to set up alert",
+    "permissions": [
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "action": {
+        "default_icon": "logo.png",
+        "default_title": "Setup alarm",
+        "default_popup": "popup.html"
+    }
+}
