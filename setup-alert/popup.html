@@ -1,9 +1,31 @@
 ﻿<!DOCTYPE html>
-<html>
-<body style="min-width:100px">
-<input type="text" id="id_Sec" value="" size=1> sec<br>
-<input type="button" id="id_Set" value="Set"><br>
-<input type="button" id="id_Clear" value="Clear">
-<script src="app.js"></script>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,
+        button {
+            margin: 3px;
+            padding: 3px;
+            font-size: 15px;
+        }
+
+        button {
+            color: azure;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="datetime-local" id="reminderDateTime" value="" size=1>
+    <input type="button" id="btnSet" value="Set">
+    <input type="button" id="btnClear" value="Clear">
+    <script src="app.js"></script>
 </body>
+
 </html>

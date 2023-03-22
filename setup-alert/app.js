@@ -1,12 +1,12 @@
-let alarm_id = 'alarm_001';
+let alarm_id = 'reminder';
 
-document.getElementById("id_Set").onclick = () => {
-    let dt = new Date();
-    let sec = document.getElementById('id_Sec').value;
-    dt.setSeconds(dt.getSeconds() + parseInt(sec));
-
-    chrome.alarms.create(alarm_id, { when: dt.getTime() })
+document.getElementById("btnSet").onclick = () => {
+    //  let dt = new Date();
+    let reminderTimeText = document.getElementById('reminderDateTime').value;
+    // dt.setSeconds(dt.getSeconds() + parseInt(sec));
+    let reminderDateTime = new Date(reminderTimeText); 
+    chrome.alarms.create(alarm_id, { when: reminderDateTime.getTime() })
 }
-document.getElementById("id_Clear").onclick = () => {
+document.getElementById("btnClear").onclick = () => {
     chrome.alarms.clear(alarm_id);
 }
