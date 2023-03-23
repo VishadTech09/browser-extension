@@ -1,0 +1,9 @@
+{
+    "name": "com.techie.favapp.spotify",
+    "description": "Spotify",
+    "path": "app-spotify.bat",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://phhkilcipdfbnanadefmjiaapjbjkoig/"
+    ]
+}

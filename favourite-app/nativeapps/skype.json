@@ -1,0 +1,9 @@
+{
+  "name": "com.techie.favapp.skype",
+  "description": "Eclipse",
+  "path": "app-skype.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://phhkilcipdfbnanadefmjiaapjbjkoig/"
+  ]
+}

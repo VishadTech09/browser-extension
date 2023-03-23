@@ -1,0 +1,9 @@
+{
+    "name": "com.techie.favapp.vscode",
+    "description": "Visual Code",
+    "path": "app-code.bat",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://phhkilcipdfbnanadefmjiaapjbjkoig/"
+    ]
+}
