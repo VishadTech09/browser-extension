@@ -1,0 +1,3 @@
+REG ADD "HKCU\Software\Microsoft\Edge\NativeMessagingHosts\com.techie.native.extension" /ve /t REG_SZ /d "%~dp0chrome-app-manifest.json" /f
+REG ADD "HKCU\Software\Mozilla\NativeMessagingHosts\com.techie.native.extension" /ve /t REG_SZ /d "%~dp0chrome-app-manifest.json" /f
+REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.techie.native.extension" /ve /t REG_SZ /d "%~dp0chrome-app-manifest.json" /f

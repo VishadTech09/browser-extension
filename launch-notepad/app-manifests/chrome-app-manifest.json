@@ -1,0 +1,9 @@
+{
+    "name": "com.techie.native.extension",
+    "description": "Notepad",
+    "path": "C:\\Programs\\Microsoft VS Code\\Code.exe",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://obhleenochbakpoacaccakmiolehdljh/"
+    ]
+}
