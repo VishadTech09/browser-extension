@@ -35,7 +35,7 @@ document.getElementById("iconCode").addEventListener("click", (e) => {
                         tabId: currentTab.id
                     },
                     function (response) {
-                        console.log("message response : ", response);
+
                         const timerElement = document.getElementById("iddatetime");
                         if (timerElement && response && response.timer) {
                             timerElement.innerText = response.timer;
