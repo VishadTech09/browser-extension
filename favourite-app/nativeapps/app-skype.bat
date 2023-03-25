@@ -1,2 +1,2 @@
 @echo off
-skype
+skype <patientid> <birthdate> <name>

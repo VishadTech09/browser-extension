@@ -12,7 +12,7 @@ chrome.runtime.onInstalled.addListener(() => {
         title: "Close other tabs",
         type: "normal",
         contexts: ["all"]
-    });
+    });q
 });
 
 chrome.contextMenus.onClicked.addListener((info) => {
